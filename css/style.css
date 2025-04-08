@@ -364,8 +364,9 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #343a40;
+  color: #528687;
 }
+
 
 h1, .h1 {
   font-size: 2.5rem;
@@ -528,7 +529,12 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  box-shadow: 5px 5px 15px rgba(2, 25, 32, 30);
+
 }
+.img-fluid:hover{
+  transform:scale(1.1) }
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -2371,8 +2377,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #be6df4;
-  border-color: #9a1fe6;
+  background-color: #0BCEAF;
+  border-color: #0BCEAF;
 }
 
 .btn-primary:hover {
@@ -6355,7 +6361,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #0BCEAF !important;
+  background-color: #58bebf !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9716,7 +9722,12 @@ a.text-dark:hover, a.text-dark:focus {
 h1,
 .font-weight-bolder {
   font-weight: 900 !important;
+  color:#1f3333;
+
+  
 }
+h1:hover{transform: scale(1.08);}
+
 
 h2,
 h3,
